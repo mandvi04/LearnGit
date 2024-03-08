@@ -10,7 +10,9 @@ import static io.restassured.RestAssured.*;
 public class APIGetmethod {
 @Test
 public void getmethod() {
-	RestAssured.baseURI="https://yahoo.com";
+
+	RestAssured.baseURI="https://google/com";
+
 	//Static import concept
 	//method chaining
 	Response response = given()
